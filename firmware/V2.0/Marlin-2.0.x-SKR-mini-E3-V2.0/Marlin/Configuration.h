@@ -488,10 +488,10 @@
                                   // Set/get with gcode: M301 E[extruder number, 0-2]
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
- // Mellow V6 clone (PTFE)
-  #define DEFAULT_Kp 13.79
-  #define DEFAULT_Ki 0.66
-  #define DEFAULT_Kd 72.28
+ // Mellow V6 clone trianglelab throat (PTFE)
+  #define DEFAULT_Kp 16.53
+  #define DEFAULT_Ki 0.88
+  #define DEFAULT_Kd 77.53
   
   // Ultimaker
 /*   #define DEFAULT_Kp 22.2
@@ -997,7 +997,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 28, 0, -0.7 }
+#define NOZZLE_TO_PROBE_OFFSET { -30, -39, -2.90 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
